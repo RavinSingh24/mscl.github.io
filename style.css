@@ -1,0 +1,232 @@
+
+/*NAVBAR-------------------------------------------------------------------------------------------------------------------*/
+body {
+    font-family: "Euclid Circ.menuar A", "Poppins";
+    font-size: 18px;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #e9e8e8;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav {
+    width: 100%;
+  }
+  
+  a {
+    cursor: pointer;
+  }
+  
+  .menu {
+    margin: 0;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 70px;
+  }
+  
+  .menu li {
+    display: inline-block;
+    width: 90px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu li:hover .submenu {
+    height: 85px;
+  }
+  
+  .menu > li:hover > a {
+    color: #33a9b2;
+  }
+  
+  .menu > li:hover > a::before {
+    visibility: visible;
+    scale: 1 1;
+  }
+  
+  .submenu {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    background-color: #33a9b2;
+    height: 0;
+    line-height: 40px;
+    box-sizing: border-box;
+    transition: height 0.3s ease-in-out;
+  }
+  .menu li .submenu a {
+    color: #fff;
+    opacity: 0;
+    font-size: 16px;
+    transition: opacity 0.25s;
+  }
+  
+  .menu > li:hover .submenu a {
+    opacity: 1;
+  }
+  
+  .menu > li .submenu a:hover {
+    background: #333333;
+  }
+  
+  .menu > li a {
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 7px;
+    text-decoration: none;
+    position: relative;
+    height: 50px;
+  }
+  
+  .menu > li > a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 3px;
+    left: 0px;
+    background-color: #33a9b2;
+    transition: all 0.2s ease-in-out;
+    scale: 0 0;
+    visibility: hidden;
+  }
+  .nav {
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: right;
+  }
+  #logopic{
+    display: flex;
+  }
+/*TEXT------------------------------------------------------------------------------------------------------------------*/
+.heading {
+    font-family: "Euclid Circ.menuar A", "Poppins";
+    font-size: 35px;
+    color: #33a9b2;
+    text-align: center;
+   
+   
+}
+.text{
+    text-align: center;
+    
+    
+}
+.centerdiv {
+    margin-left: 100px;
+    margin-right: 100px
+}
+li {
+padding-left: 30px;
+}
+h3{
+    font-size: 25px;
+}
+#goal{
+    padding-left: 30px;
+}
+/*heading-picture------------------------------------------------------------------------------------------------------------------*/
+.picdiv {
+    background-color: #6b0707;
+    width: 100%;
+    height: 200px;
+}
+/*card-------------------------
+*/
+.card {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    height: 230px;
+    width: 400px;
+
+  }
+  .card:hover{
+    background-color: #e2e1e1;
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  #divcard{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /*footer-------------------------------------------*/
+  footer {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(184, 183, 183);
+    text-align: center;
+  }
+  /*contact-------------------------------------------------*/
+ 
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.image-container {
+    flex: 0 0 200px; /* Fixed width for the image container */
+    margin-right: 20px;
+}
+.image-container img {
+    max-width: 100%;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.content {
+    max-width: 800px;
+    padding: 0 20px;
+}
+#heading {
+    font-size: 32px;
+    margin-top: 0;
+}
+#subheading {
+    font-size: 24px;
+    color: #555;
+    margin-top: 0;
+}
+.paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+  /*rubric-------------------------------------*/
+  #rubricdiv{
+    display: flex;
+  }
+  .rubric{
+    width: 50%;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }

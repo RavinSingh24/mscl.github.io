@@ -229,3 +229,24 @@ h3{
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
+
+/*calendar------------*/
+#calendar{
+  margin-left:15%;
+  margin-bottom: 10%;
+
+  border-radius: 5px;
+  border-color: black;
+  
+  
+}
+
+
+/*intro presentation------------*/
+#intropres {
+  margin-left:27%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
